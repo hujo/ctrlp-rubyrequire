@@ -12,8 +12,7 @@ cal add(g:ctrlp_ext_vars, {
 \ 'lname': 'ruby require',
 \ 'sname': 'rubyrequire',
 \ 'type': 'tabs',
-\ 'nolim': 1,
-\ 'sort': 1
+\ 'nolim': 1
 \ })
 
 let s:rubyfile = expand('<sfile>:p:r') . '.rb'
