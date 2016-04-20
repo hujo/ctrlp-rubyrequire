@@ -1,6 +1,5 @@
-(lambda do
+(lambda do |paths|
 
-  paths = {}
   def paths.regist_path(paths, expr='/**/lib/**/*.rb', regexp=/^.*\/lib\//)
     for path in Array(paths) do
       sp_start = path.length + 1
@@ -28,4 +27,4 @@
     print paths
   end
 
-end).call
+end).call({})
