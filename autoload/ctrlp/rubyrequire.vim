@@ -1,8 +1,3 @@
-if get(g:, 'loaded_ctrlp_rubyrequire', 0)
-  finish
-endif
-
-let g:loaded_ctrlp_rubyrequire = 1
 let g:ctrlp_rubyrequire_appendfunc = get(g:, 'g:ctrlp_rubyrequire_appendfunc', 'ctrlp#rubyrequire#append')
 let g:ctrlp_rubyrequire_mode = get(g:, 'ctrlp_rubyrequire_mode', 'h')
 
