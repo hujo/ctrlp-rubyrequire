@@ -16,7 +16,7 @@
   begin
     defined? ::Bundler or require 'bundler' and
       paths.regist_path Bundler.bundle_path.to_s
-  rescue
+  rescue Exception
   end
 
   paths = paths.sort_by(&:first).to_s
